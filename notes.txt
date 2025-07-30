@@ -1,0 +1,18 @@
+
+CRUD = CREATE READ UPDATE DELETE
+
+CREATE = INSERT
+READ = SELECT
+
+SELECT * FROM students;
+SELECT name, roll FROM students;
+SELECT * FROM students WHERE roll=1;
+SELECT * FROM students WHERE address="Uttara, Dhaka";
+SELECT * FROM students WHERE id=1;
+
+UPDATE = UPDATE
+UPDATE students SET phone="01693493976" WHERE id=2;
+UPDATE students SET phone="01693493976", address="Mohakhali, Dhaka", email="example@gmail.com", roll=5 WHERE name="Rahim";
+
+DELETE = DELETE
+DELETE FROM students WHERE id=4;
